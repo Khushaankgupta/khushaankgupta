@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- SEO Meta -->
+    <meta
+      name="description"
+      content="Portfolio of Khushaank Gupta – CA student passionate about finance, technology, and entrepreneurship. Explore my projects, skills, and contact information."
+    />
+    <meta
+      name="keywords"
+      content="Khushaank Gupta, CA Student, Finance, Portfolio, Financial Analysis, Entrepreneurship, Technology"
+    />
+    <meta name="author" content="Khushaank Gupta" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+    <!-- Open Graph for social sharing (Facebook, LinkedIn, etc.) -->
+    <meta
+      property="og:title"
+      content="Khushaank Gupta | CA Student Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Explore projects and skills of Khushaank Gupta – aspiring CA blending finance with tech and strategy."
+    />
+    <meta property="og:image" content="https://yourdomain.com/preview.jpg" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Khushaank Gupta | Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Finance. Tech. Strategy. Discover the portfolio of Khushaank Gupta."
+    />
+    <meta name="twitter:image" content="https://yourdomain.com/preview.jpg" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#b497bd" />
+
+    <title>Khushaank Gupta | Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Khushaank Gupta</div>
+        <button
+          class="menu"
+          onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          aria-label="Main Menu"
+        >
+          <svg width="40" height="40" viewBox="0 0 100 100">
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="about-float">
+        <p>
+          👋 Hi, I’m <strong>Khushaank Gupta</strong> — a driven CA student with
+          a passion for <span class="highlight">finance</span>,
+          <span class="highlight">technology</span>, and
+          <span class="highlight">entrepreneurship</span>.
+        </p>
+        <p>
+          I combine analytical thinking with creativity to solve real-world
+          problems. I believe in
+          <em>data-driven</em> decisions, lifelong learning, and making a
+          lasting impact.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <p>Here are a few examples of my work:</p>
+        <ul>
+          <li>
+            <span class="tag">💰</span> Finance Budgeting App – Built for CA
+            students to manage expenses
+          </li>
+          <li>
+            <span class="tag">📈</span> Portfolio Tracker – Real-time investment
+            tracking dashboard
+          </li>
+          <li>
+            <span class="tag">🤖</span> AI Summary Bot – Turns long financial
+            reports into bullet points
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Interested in collaborating or hiring me? Let’s connect!</p>
+
+      <form
+        action="https://formspree.io/f/mpwrlgkn"
+        method="POST"
+        class="contact-form"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <br />
+      <div class="btn-group">
+        <button class="btn" onclick="contactAction()">
+          <i class="fa-solid fa-envelope"></i> Email Me
+        </button>
+        <a href="resume.pdf" class="btn resume-btn" download>
+          <i class="fa-solid fa-download"></i> Resume
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          <i class="fa-regular fa-copyright"></i> 2025 Khushaank Gupta. All
+          rights reserved.
+        </p>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.linkedin.com/in/khushaankgupta" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/Khushaankgupta" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      document.querySelector(".menu").addEventListener("click", function () {
+        document.getElementById("navLinks").classList.toggle("active");
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/285af4c3bd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
